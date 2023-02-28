@@ -52,6 +52,7 @@
   --lh-23: 23px;
   --lh-24: 24px;
   --lh-25: 25px;
+  --lh-26: 26px;
   --lh-27: 27px;
   --lh-28: 28px;
   --lh-29: 29px;
@@ -473,6 +474,7 @@ input[type=checkbox]:checked:after {
 /**
 * fw: 500
 */
+
 .fw-500-16-22 {
   font-weight: var(--fw-500);
   font-size: var(--fs-16);
@@ -516,6 +518,12 @@ input[type=checkbox]:checked:after {
   font-weight: var(--fw-400);
   font-size: var(--fs-18);
   line-height: var(--lh-22);
+}
+
+.fw-400-17-27 {
+  font-weight: var(--fw-400);
+  font-size: var(--fs-17);
+  line-height: var(--lh-27); 
 }
 
 .fw-400-16-22 {
@@ -920,7 +928,31 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
 
 .recommended__title {
   color: #1C1C1C;
+  margin-bottom: 39px;
 }
+
+.recommended-outline {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 40px;
+}
+
+.recommended-outline__item {
+  display: flex;
+  justify-content: center;
+}
+
+.recommended-outline__aqua-tick-icon {
+  margin-right: 22px;
+}
+
+.recommended-outline__desc {
+  width: 160px;
+  color: #1C1C1C;
+  display: flex;
+  align-items: center;
+}
+
 
 
 
@@ -1024,6 +1056,11 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .fw-400-28-39 {
     font-size: var(--fs-27);
     line-height: var(--lh-38);
+  }
+
+  .fw-400-17-27 {
+    font-size: var(--fs-16);
+    line-height: var(--lh-26);
   }
 
   .fw-400-16-19 {
@@ -1133,6 +1170,11 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     font-size: var(--fs-25);
     line-height: var(--lh-35);
   }
+  
+  .fw-400-17-27 {
+    font-size: var(--fs-15);
+    line-height: var(--lh-25);
+  }
 
   .fw-400-16-19 {
     font-size: var(--fs-12);
@@ -1241,6 +1283,13 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     gap: 18px;
   }
 
+  /* Рекомендовано */
+  .recommended-outline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+  }
+
 }
 
 
@@ -1248,6 +1297,11 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .fw-400-28-39 {
     font-size: var(--fs-22);
     line-height: var(--lh-32);
+  }
+
+  .fw-400-17-27 {
+    font-size: var(--fs-14);
+    line-height: var(--lh-24);
   }
 
   header .header__bottom .header-bottom-inner {
@@ -1273,6 +1327,14 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     display: flex;
     justify-content: center;
   }
+
+  .recommended-outline__aqua-tick-icon {
+    margin-right: 13px;
+  }
+  .aqua-tick-img {
+    width: 38px;
+    height: 38px;
+  }
 }
 
 @media only screen and (max-width: 530px) {
@@ -1284,6 +1346,12 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .services-grid {
     grid-template-columns: repeat(1, 1fr);
     gap: 18px;
+  }
+
+  .recommended-outline {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
   }
 }
 
