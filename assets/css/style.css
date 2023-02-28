@@ -43,6 +43,7 @@
   --lh-17: 17px;
   --lh-19: 19px;
   --lh-20: 20px;
+  --lh-21: 21px;
   --lh-22: 22px;
   --lh-23: 23px;
   --lh-24: 24px;
@@ -530,6 +531,12 @@ input[type=checkbox]:checked:after {
 .fw-400-14-17 {
   font-weight: var(--fw-400);
   font-size: var(--fs-14);
+  line-height: var(--lh-21);
+}
+
+.fw-400-14-17 {
+  font-weight: var(--fw-400);
+  font-size: var(--fs-14);
   line-height: var(--lh-17);
 }
 
@@ -750,7 +757,6 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   grid-template-columns: repeat(4, 1fr);
   font-family: var(--poppins-ff);
   gap: 38px;
-
 }
 
 .services-item {
@@ -908,6 +914,12 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   header .header__bottom .header-bottom-inner .header-bottom__contact-info-wrapper {
     margin-right: 50px;
   }
+
+  .fw-700-17-25 {
+    font-size: var(--fs-17);
+    line-height: var(--lh-25);
+  }
+
   .fw-700-14-17 {
     font-size: var(--fs-12);
   }
@@ -917,8 +929,34 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .fw-400-16-19 {
     font-size: var(--fs-14);
   }
+
+  .fw-400-15-23 {
+    font-size: var(--fs-14);
+    line-height: var(--lh-22);
+  }
+
+  .fw-400-14-21 {
+    font-size: var(--fs-13);
+    line-height: var(--lh-20);
+  }
+
+  
+
+  /* Наши Услуги */
+  .services-item {
+    width: 256px;
+  }
+
+
+
+
 }
 @media only screen and (max-width: 1440px) {
+  .fw-700-17-25 {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+
   .fw-700-14-17 {
     font-size: var(--fs-11);
   }
@@ -928,6 +966,17 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .fw-400-16-19 {
     font-size: var(--fs-13);
   }
+
+  .fw-400-15-23 {
+    font-size: var(--fs-13);
+    line-height: var(--lh-21);
+  }
+
+  .fw-400-14-21 {
+    font-size: var(--fs-12);
+    line-height: var(--lh-19);
+  }
+
   .container-outer {
     width: 1013px;
   }
@@ -937,6 +986,16 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   header .header__top .navbar-list .navbar-list__item {
     margin-right: 35px;
   }
+
+  .services-item {
+    width: 224px;
+    height: 224px;
+    padding-top: 27px;
+  }
+
+  .services-item__services-item-title {
+    margin-bottom: 6px;
+  }
 }
 @media only screen and (max-width: 1279px) {
   .container-outer {
@@ -945,6 +1004,12 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .container-lower {
     width: 800px;
   }
+
+  .fw-700-17-25 {
+    font-size: var(--fs-15);
+    line-height: var(--lh-23);
+  }
+
   .fw-700-14-17 {
     font-size: var(--fs-10);
   }
@@ -958,6 +1023,17 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .fw-400-16-19 {
     font-size: var(--fs-12);
   }
+
+  .fw-400-15-23 {
+    font-size: var(--fs-12);
+    line-height: var(--lh-22);
+  }
+
+  .fw-400-14-21 {
+    font-size: var(--fs-11);
+    line-height: var(--lh-18);
+  }
+
   .fw-300-16-19 {
     font-size: var(--fs-11);
   }
@@ -982,6 +1058,12 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   }
   .services-content__inner {
     bottom: 60px;
+  }
+
+  .services-item {
+    width: 196px;
+    height: 196px;
+    padding-top: 16px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -1014,7 +1096,29 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 38px;
+  }
+
+  .services-item {
+    width: 100%;
+    height: auto;
+    padding-top: 16px;
+  }
+
 }
+
+@media only screen and (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+}
+
+
 @media only screen and (max-width: 600px) {
   header .header__bottom .header-bottom-inner {
     -webkit-box-pack: center;
@@ -1031,6 +1135,15 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     width: 276px;
   }
 }
+
+@media only screen and (max-width: 530px) {
+  .services-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 18px;
+  }
+}
+
+
 @media only screen and (max-width: 320px) {
   .services-hero__title {
     width: 240px;
