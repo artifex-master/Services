@@ -31,7 +31,9 @@
   --fs-26: 26px;
   --fs-27: 27px;
   --fs-28: 28px;
+  --fs-29: 29px;
   --fs-30: 30px;
+  --fs-31: 31px;
   --fs-32: 32px;
   --fs-35: 35px;
   --fs-36: 36px;
@@ -64,8 +66,11 @@
   --lh-35: 35px;
   --lh-37: 37px;
   --lh-38: 38px;
+  --lh-40: 40px;
   --lh-42: 42px;
+  --lh-44: 44px;
   --lh-45: 45px;
+  --lh-46: 46px;
   --lh-48: 48px;
   --lh-50: 50px;
   --lh-55: 55px;
@@ -496,6 +501,14 @@ input[type=checkbox]:checked:after {
 /**
 * fw: 400
 */
+
+.fw-400-31-46 {
+  font-weight: var(--fw-400);
+  font-size: var(--fs-31);
+  line-height: var(--lh-46);
+}
+
+
 .fw-400-28-39 {
   font-weight: var(--fw-400);
   font-size: var(--fs-28);
@@ -772,6 +785,7 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
 
 .services-hero {
   position: relative;
+  font-family: var(--roboto-ff);
 }
 
 /* Наши Услуги */
@@ -1101,7 +1115,50 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
 
 
 
+/* Страница "МАССАЖ" */
+.services-hero__subtitle {
+  width: 892px;
+  color: #fff;
+}
 
+.services-block__outer {
+  padding-block-start: 100px;
+  padding-block-end: 88px;
+}
+
+
+.services-block__inner {
+  display: flex;
+}
+
+
+.services-block__img-wrapper {
+  width: 505px;
+  height: 371px;
+  flex: 0 0 40%;
+  background-image: url('../images/services-block-img.svg');
+  background-repeat: no-repeat;
+  background-color: rgba(86, 50, 110, 0.59);
+  background-size: 100%;
+  background-blend-mode: multiply;
+  margin-right: 35px;
+}
+
+.services-block__content {
+  flex: 0 0 60%;
+  font-family: var(--mont-ff);
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-block__txt {
+  flex: 1 1 auto;
+}
+
+.services-block__btn-wrapper button {
+  padding: 16px 52px;
+}
 
 
 
@@ -1197,6 +1254,11 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     font-size: var(--fs-14);
   }
 
+  .fw-400-31-46 {
+    font-size: var(--fs-29);
+    line-height: var(--lh-44);
+  }
+
   .fw-400-28-39 {
     font-size: var(--fs-27);
     line-height: var(--lh-38);
@@ -1205,6 +1267,11 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .fw-400-24-30 {
     font-size: var(--fs-23);
     line-height: var(--lh-29);
+  }
+
+  .fw-400-18-22 {
+    font-size: var(--fs-17);
+    line-height: var(--lh-21);
   }
 
   .fw-400-17-27 {
@@ -1235,6 +1302,15 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     width: 256px;
   }
 
+  /* СТРАНИЦА С МАССАЖЕМ */
+  .services-hero__subtitle {
+    width: 664px;
+  }
+
+  .services-block__img-wrapper {
+    height: 338px;
+  }
+
 
 
 
@@ -1253,6 +1329,11 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     font-size: var(--fs-13);
   }
 
+  .fw-400-31-46 {
+    font-size: var(--fs-28);
+    line-height: var(--lh-42);
+  }
+
   .fw-400-28-39 {
     font-size: var(--fs-26);
     line-height: var(--lh-36);
@@ -1261,6 +1342,11 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .fw-400-24-30 {
     font-size: var(--fs-22);
     line-height: var(--lh-28);
+  }
+
+  .fw-400-18-22 {
+    font-size: var(--fs-16);
+    line-height: var(--lh-20);
   }
 
   .fw-400-16-19 {
@@ -1319,6 +1405,10 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .dr-img {
     width: 440px;
   }
+
+  .services-block__img-wrapper {
+    height: 300px;
+  }
 }
 
 
@@ -1334,6 +1424,16 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .fw-700-17-25 {
     font-size: var(--fs-15);
     line-height: var(--lh-23);
+  }
+
+  .fw-400-31-46 {
+    font-size: var(--fs-27);
+    line-height: var(--lh-40);
+  }
+
+  .fw-400-18-22 {
+    font-size: var(--fs-15);
+    line-height: var(--lh-19);
   }
 
   .fw-400-17-20 {
@@ -1420,14 +1520,36 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .dr-img {
     width: 386px;
   }
+
+  .services-hero__subtitle {
+    width: 498px;
+  }
+
+  .services-block__img-wrapper {
+    height: 265px;
+  }
+
+  .services-block__txt {
+    margin-bottom: 30px;
+  }
 }
 
 
 @media only screen and (max-width: 992px) {
+  .fw-400-31-46 {
+    font-size: var(--fs-25);
+    line-height: var(--lh-38);
+  }
+
   .fw-400-28-39 {
     font-size: var(--fs-24);
     line-height: var(--lh-34);
   }
+
+  /* .fw-400-18-22 {
+    font-size: var(--fs-14);
+    line-height: var(--lh-18);
+  } */
 
 
   .container-outer {
@@ -1487,11 +1609,42 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     flex-direction: column-reverse;
   }
 
+  .services-block__inner {
+    flex-direction: column;
+  }
+
+  .services-block__img-wrapper {
+    width: 420px;
+    height: 310px;
+    flex: 0 0 auto;
+    margin-right: 0;
+    margin-bottom: 25px;
+
+  }
+
+  .services-block__img-wrapper-outer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .services-block__content {
+    flex: 0 0 auto;
+  }
+
+  .services-block__btn-wrapper {
+    display: flex;
+    justify-content: center;
+  }
 
 
 }
 
 @media only screen and (max-width: 768px) {
+  .fw-400-31-46 {
+    font-size: var(--fs-24);
+    line-height: var(--lh-37);
+  }
+
   .fw-400-28-39 {
     font-size: var(--fs-23);
     line-height: var(--lh-33);
@@ -1581,9 +1734,19 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     display: flex;
     justify-content: center;
   }
+
+  .services-block__img-wrapper {
+    width: 100%;
+    height: 310px;
+  }
 }
 
 @media only screen and (max-width: 530px) {
+  .fw-400-31-46 {
+    font-size: var(--fs-23);
+    line-height: var(--lh-37);
+  }
+
   .fw-400-28-39 {
     font-size: var(--fs-21);
     line-height: var(--lh-31);
@@ -1599,9 +1762,22 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     grid-template-columns: repeat(1, 1fr);
     row-gap: 30px;
   }
+
+  .services-hero__subtitle {
+    width: 368px;
+  }
+
+  .services-content__inner {
+    bottom: 110px;
+  }
 }
 
 @media only screen and (max-width: 460px) {
+  .fw-400-31-46 {
+    font-size: var(--fs-21);
+    line-height: var(--lh-37);
+  }
+
   .fw-400-28-39 {
     font-size: var(--fs-20);
     line-height: var(--lh-30);
@@ -1626,9 +1802,20 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .dr-img {
     width: 100%;
   }
+
+  .services-content__inner {
+    bottom: 40px;
+  }
+
+  .services-hero__subtitle {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 360px) {
+  .services-block__img-wrapper {
+    height: 236px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
