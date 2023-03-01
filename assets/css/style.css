@@ -527,6 +527,12 @@ input[type=checkbox]:checked:after {
   line-height: var(--lh-36);
 }
 
+.fw-400-20-25 {
+  font-weight: var(--fw-400);
+  font-size: var(--fs-20);
+  line-height: var(--lh-25);
+}
+
 .fw-400-18-30 {
   font-weight: var(--fw-400);
   font-size: var(--fs-18);
@@ -808,9 +814,12 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   font-family: var(--poppins-ff);
   gap: 38px;
+}
+
+.our-services__services-grid {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .services-item {
@@ -1160,9 +1169,41 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   padding: 16px 52px;
 }
 
+.massage__services-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
 
+.features {
+  font-family: var(--mont-ff);
+}
 
+.feature-title {
+  font-family: var(--mont-ff);
+  color: #000;
+}
 
+.features__feature-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.feature-list__item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.feature-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.feature-list__feature-dot {
+  margin-right: 26px;
+}
+
+.feature-desc {
+  color: #000;
+}
 
 
 
@@ -1268,6 +1309,7 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     font-size: var(--fs-23);
     line-height: var(--lh-29);
   }
+
 
   .fw-400-18-22 {
     font-size: var(--fs-17);
@@ -1526,6 +1568,7 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   }
 
   .services-block__img-wrapper {
+    width: 360px;
     height: 265px;
   }
 
@@ -1546,10 +1589,10 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     line-height: var(--lh-34);
   }
 
-  /* .fw-400-18-22 {
+  .fw-400-16-22 {
     font-size: var(--fs-14);
-    line-height: var(--lh-18);
-  } */
+    line-height: var(--lh-20);
+  }
 
 
   .container-outer {
@@ -1636,6 +1679,22 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
     justify-content: center;
   }
 
+  .fw-400-20-25 {
+    font-size: var(--fs-18);
+    line-height: var(--lh-22);
+  }
+
+  .feature-list__item {
+    margin-bottom: 40px;
+  }
+
+  .features__feature-title {
+    text-align: center;
+  }
+
+  .feature-list__item:last-child {
+    margin-bottom: 40px;
+  }
 
 }
 
