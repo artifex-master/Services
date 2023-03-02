@@ -1,6 +1,9 @@
 'use strict'
 
 const mobileMenu = document.querySelector('.mobile-menu');
+const mobileSidebar = document.querySelector('.mobile-sidebar');
+const mainWrapper = document.querySelector('.main-wrapper');
+
 const chooseServiceSelectBox = document.querySelector('.choose-service-input__select-box'); 
 const chooseServiceDropdown = document.querySelector('.choose-service-input__dropdown');
 const chooseServiceOptions = document.querySelectorAll('.choose-service-input__item');
@@ -13,8 +16,12 @@ const chooseServiceCityOptions = document.querySelectorAll('.city-option');
 const chooseServiceCityLabel = document.querySelector('.city-label');
 const chooseServiceCityChevronIcon = document.querySelector('.city-option-chevron');
 
+
 mobileMenu.addEventListener("click", function() {
   mobileMenu.classList.toggle("active");
+  mobileSidebar.classList.toggle("active");
+  mainWrapper.classList.toggle("disable-scroll");
+
 });
 
 chooseServiceSelectBox.addEventListener("click", function() {

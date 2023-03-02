@@ -654,8 +654,14 @@ input[type=checkbox]:checked:after {
   line-height: var(--lh-19);
 }
 
+.sidebar-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
 header {
   font-family: var(--mont-ff);
+  position: relative;
 }
 header .header__top {
   width: 100%;
@@ -1630,8 +1636,42 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
 
 
 
+/* Сайдбар */
+.mobile-sidebar {
+  position: fixed;
+  top: 40px;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #e1e5e1;
+  z-index: 20;
+  overflow: hidden;
+  transition: 0.25s ease;
+
+}
+
+.mobile-sidebar.active {
+  left: 0;
+}
+
+.disable-scroll {
+  height: 100%;
+  overflow: hidden;
+}
+
+.mobile-sidebar__link {
+  width: 100%;
+  padding: 14px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
 
 
+.mobile-sidebar__link ion-icon {
+  font-size: 14px;
+  color: #56326E;
+}
 
 
 
@@ -2118,6 +2158,10 @@ header .header__bottom .header-bottom-inner .header-media-icons-wrapper .header-
   .fw-400-16-22 {
     font-size: var(--fs-14);
     line-height: var(--lh-20);
+  }
+
+  .fw-300-16-19 {
+    font-size: var(--fs-14);
   }
 
 

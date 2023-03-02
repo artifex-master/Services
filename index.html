@@ -28,433 +28,495 @@
 
 </head>
 <body>
-  <header class="header">
-    <div class="header__top fw-300-16-19">
-      <div class="container-outer">
-        <nav class="header__navbar center">
-          <ul class="navbar-list">
-            <li class="navbar-list__item center"><a href="">О нас</a></li>
-            <li class="navbar-list__item center"><a href="">Все услуги</a></li>
-            <li class="navbar-list__item center"><a href="">Прайс</a></li>
-            <li class="navbar-list__item center"><a href="">Наша команда</a></li>
-            <li class="navbar-list__item center"><a href="">Статьи</a></li>
-            <li class="navbar-list__item center"><a href="">Видео</a></li>
-            <li class="navbar-list__item center"><a href="">Отзывы</a></li>
-            <li class="navbar-list__item center"><a href="">Новости</a></li>
-            <li class="navbar-list__item center"><a href="">Контакты</a></li>
-          </ul>
-          <ul class="auth-navbar-list">
-            <li class="auth-navbar-list__item">
-              <div class="login-icon auth-navbar-list__login-icon">
-                <ion-icon name="log-in-outline"></ion-icon>
-              </div>
-              <div class="auth-navbar-list__login-label center">
-                <p><a href="">Вход</a></p>
-              </div>
-            </li>
-            <li class="auth-navbar-list__item center">
-              <p><a href="">Регистрация</a></p>
-            </li>
-          </ul>
-        </nav>
-        <!-- Mobile burger -->
-        <div class="mobile-menu">
-          <span class="menu-line line-one"></span>
-          <span class="menu-line line-two"></span>
-          <span class="menu-line line-three"></span>
-        </div>
-      </div>
-    </div>
-    <div class="header__bottom">
-        <div class="container-lower">
-          <div class="header-bottom-inner">
-            <div class="logo">
-              <a href=""><img class="logo" src="./assets/images/logo.svg" alt="Логотип" /></a>
-            </div>
-            <div class="search-wrapper header-bottom__search-wrapper fw-400-16-19">
-              <input class="search-input" type="text" name="search" id="search" placeholder="Поиск" />
-              <div class="search-icon-wrapper center">
-                <img width="15px" height="15px" src="./assets/images/search.svg" alt="./assets/images/search.svg" />
-              </div>
-            </div>
-            <div class="contact-info-wrapper header-bottom__contact-info-wrapper">
-              <div class="contact-info__left">
-                <div class="header-phone-icon-wrapper center">
-                  <img src="./assets/images/phone.svg" alt="./assets/images/phone.svg" />
-                </div>
-              </div>
-              <div class="contact-info__right">
-                <div class="header-tel-wrapper">
-                  <div class="header-tel black fw-400-16-19">
-                    <p>+7(777) 777 77 77</p>
-                  </div>
-                  <div class="header-tel-chevron-icon center">
-                    <img src="./assets/images/chevron-down.svg" alt="./assets/images/chevron-down.svg" />
-                  </div>
-                </div>
-                <div class="order-callback purple fw-700-14-17">
-                  <a href="">Заказать обратный звонок</a>
-                </div>
-              </div>
-            </div>
-            <div class="header-media-icons-wrapper">
-              <div class="header-whatsapp center">
-                <a href=""><img class="whatsapp" src="./assets/images/whatsapp.svg" alt="./assets/images/whatsapp.svg" /></a>
-              </div>
-              <div class="header-insta center">
-                <a href=""><img class="insta" src="./assets/images/insta.svg" alt="./assets/images/insta.svg" /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-  </header>
-  <main>
-    <div class="services-hero">
-      <div class="services-hero__services-main-img services-main-img">
-        <img width="100%" class="services-img services-main-img__services-img" src="./assets/images/services-hero-img.svg" alt="./assets/images/services-hero-img.svg" />
-        <img width="100%" class="hero-img-mobile" src="./assets/images/painful-knee.png" alt="./assets/images/painful-knee.png" />
-        <div class="services-hero__services-overlay services-overlay"></div>
-      </div>
-      <div class="services-hero__content">
+  <div class="main-wrapper">
+    <header class="header">
+      <div class="header__top fw-300-16-19">
         <div class="container-outer">
-          <div class="services-content__inner">
-            <div class="services-title services-hero__title fw-600-24-34">
-              <p>Хруст в коленях – норма или повод обратиться к врачу?</p>
-            </div>
-            <div class="services-hero__btn-wrapper">
-              <button class="btn-primary fw-700-16-20">Заказать звонок</button>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <div class="our-services">
-      <div class="container-outer">
-        <div class="our-services__outer">
-          <div class="our-services__inner">
-            <div class="our-services__title-label fw-900-30-37">
-              <p>Наши услуги</p>
-            </div>
-            <!-- Сетка -->
-            <ul class="services-grid our-services__services-grid">
-              <li class="services-item services-grid__services-item">
-                <div class="services-item__inner">
-                  <div class="services-icon services-item__services-icon">
-                    <ion-icon name="diamond-outline"></ion-icon>
-                  </div>
-                  <div class="services-item-title services-item__services-item-title fw-700-17-25">
-                    <p>Мануальная терапия</p>
-                  </div>
-                  <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
-                    <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
-                  </div>
-                  <div class="services-item__btn-wrapper fw-400-15-23">
-                    <button class="btn-secondary">Подробнее</button>
-                  </div>
+          <nav class="header__navbar center">
+            <ul class="navbar-list">
+              <li class="navbar-list__item center"><a href="">О нас</a></li>
+              <li class="navbar-list__item center"><a href="">Все услуги</a></li>
+              <li class="navbar-list__item center"><a href="">Прайс</a></li>
+              <li class="navbar-list__item center"><a href="">Наша команда</a></li>
+              <li class="navbar-list__item center"><a href="">Статьи</a></li>
+              <li class="navbar-list__item center"><a href="">Видео</a></li>
+              <li class="navbar-list__item center"><a href="">Отзывы</a></li>
+              <li class="navbar-list__item center"><a href="">Новости</a></li>
+              <li class="navbar-list__item center"><a href="">Контакты</a></li>
+            </ul>
+            <ul class="auth-navbar-list">
+              <li class="auth-navbar-list__item">
+                <div class="login-icon auth-navbar-list__login-icon">
+                  <ion-icon name="log-in-outline"></ion-icon>
+                </div>
+                <div class="auth-navbar-list__login-label center">
+                  <p><a href="">Вход</a></p>
                 </div>
               </li>
-              <li class="services-item services-grid__services-item">
-                <div class="services-item__inner">
-                  <div class="services-icon services-item__services-icon">
-                    <ion-icon name="diamond-outline"></ion-icon>
-                  </div>
-                  <div class="services-item-title services-item__services-item-title fw-700-17-25">
-                    <p>Мануальная терапия</p>
-                  </div>
-                  <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
-                    <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
-                  </div>
-                  <div class="services-item__btn-wrapper fw-400-15-23">
-                    <button class="btn-secondary">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="services-item services-grid__services-item">
-                <div class="services-item__inner">
-                  <div class="services-icon services-item__services-icon">
-                    <ion-icon name="diamond-outline"></ion-icon>
-                  </div>
-                  <div class="services-item-title services-item__services-item-title fw-700-17-25">
-                    <p>Мануальная терапия</p>
-                  </div>
-                  <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
-                    <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
-                  </div>
-                  <div class="services-item__btn-wrapper fw-400-15-23">
-                    <button class="btn-secondary">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="services-item services-grid__services-item">
-                <div class="services-item__inner">
-                  <div class="services-icon services-item__services-icon">
-                    <ion-icon name="diamond-outline"></ion-icon>
-                  </div>
-                  <div class="services-item-title services-item__services-item-title fw-700-17-25">
-                    <p>Мануальная терапия</p>
-                  </div>
-                  <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
-                    <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
-                  </div>
-                  <div class="services-item__btn-wrapper fw-400-15-23">
-                    <button class="btn-secondary">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="services-item services-grid__services-item">
-                <div class="services-item__inner">
-                  <div class="services-icon services-item__services-icon">
-                    <ion-icon name="diamond-outline"></ion-icon>
-                  </div>
-                  <div class="services-item-title services-item__services-item-title fw-700-17-25">
-                    <p>Мануальная терапия</p>
-                  </div>
-                  <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
-                    <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
-                  </div>
-                  <div class="services-item__btn-wrapper fw-400-15-23">
-                    <button class="btn-secondary">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="services-item services-grid__services-item">
-                <div class="services-item__inner">
-                  <div class="services-icon services-item__services-icon">
-                    <ion-icon name="diamond-outline"></ion-icon>
-                  </div>
-                  <div class="services-item-title services-item__services-item-title fw-700-17-25">
-                    <p>Мануальная терапия</p>
-                  </div>
-                  <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
-                    <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
-                  </div>
-                  <div class="services-item__btn-wrapper fw-400-15-23">
-                    <button class="btn-secondary">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="services-item services-grid__services-item">
-                <div class="services-item__inner">
-                  <div class="services-icon services-item__services-icon">
-                    <ion-icon name="diamond-outline"></ion-icon>
-                  </div>
-                  <div class="services-item-title services-item__services-item-title fw-700-17-25">
-                    <p>Мануальная терапия</p>
-                  </div>
-                  <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
-                    <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
-                  </div>
-                  <div class="services-item__btn-wrapper fw-400-15-23">
-                    <button class="btn-secondary">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="services-item services-grid__services-item">
-                <div class="services-item__inner">
-                  <div class="services-icon services-item__services-icon">
-                    <ion-icon name="diamond-outline"></ion-icon>
-                  </div>
-                  <div class="services-item-title services-item__services-item-title fw-700-17-25">
-                    <p>Мануальная терапия</p>
-                  </div>
-                  <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
-                    <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
-                  </div>
-                  <div class="services-item__btn-wrapper fw-400-15-23">
-                    <button class="btn-secondary">Подробнее</button>
-                  </div>
-                </div>
+              <li class="auth-navbar-list__item center">
+                <p><a href="">Регистрация</a></p>
               </li>
             </ul>
+          </nav>
+          <!-- Mobile burger -->
+          <div class="mobile-menu">
+            <span class="menu-line line-one"></span>
+            <span class="menu-line line-two"></span>
+            <span class="menu-line line-three"></span>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Рекомендовано записаться на прием -->
-    <div class="recommended">
-      <div class="container-outer">
-        <div class="recommended__outer">
-          <div class="recommended__inner">
-            <div class="recommended__title fw-400-28-39">
-              <p>Рекомендовано записаться на прием:</p>
-            </div>
-            <ul class="recommended-outline recommended__recommended-outline">
-              <li class="recommended-outline__item">
-                <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
-                  <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
+      <div class="header__bottom">
+          <div class="container-lower">
+            <div class="header-bottom-inner">
+              <div class="logo">
+                <a href=""><img class="logo" src="./assets/images/logo.svg" alt="Логотип" /></a>
+              </div>
+              <div class="search-wrapper header-bottom__search-wrapper fw-400-16-19">
+                <input class="search-input" type="text" name="search" id="search" placeholder="Поиск" />
+                <div class="search-icon-wrapper center">
+                  <img width="15px" height="15px" src="./assets/images/search.svg" alt="./assets/images/search.svg" />
                 </div>
-                <div class="recommended-outline__desc fw-400-17-27">
-                  <p>Для сохранения здоровья суставов</p>
+              </div>
+              <div class="contact-info-wrapper header-bottom__contact-info-wrapper">
+                <div class="contact-info__left">
+                  <div class="header-phone-icon-wrapper center">
+                    <img src="./assets/images/phone.svg" alt="./assets/images/phone.svg" />
+                  </div>
                 </div>
-              </li>
-              <li class="recommended-outline__item">
-                <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
-                  <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
-                </div>
-                <div class="recommended-outline__desc fw-400-17-27">
-                  <p>При лечении мышц и связок</p>
-                </div>
-              </li>
-              <li class="recommended-outline__item">
-                <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
-                  <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
-                </div>
-                <div class="recommended-outline__desc fw-400-17-27">
-                  <p>Для профилактики заболеваний вен</p>
-                </div>
-              </li>
-              <li class="recommended-outline__item">
-                <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
-                  <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
-                </div>
-                <div class="recommended-outline__desc fw-400-17-27">
-                  <p>Перенесшим операцию</p>
-                </div>
-              </li>
-              <li class="recommended-outline__item">
-                <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
-                  <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
-                </div>
-                <div class="recommended-outline__desc fw-400-17-27">
-                  <p>Нуждающимся в реабилитации</p>
-                </div>
-              </li>
-              <li class="recommended-outline__item">
-                <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
-                  <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
-                </div>
-                <div class="recommended-outline__desc fw-400-17-27">
-                  <p>Любителям спорта</p>
-                </div>
-              </li>
-              <li class="recommended-outline__item">
-                <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
-                  <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
-                </div>
-                <div class="recommended-outline__desc fw-400-17-27">
-                  <p>Для коррекции походки</p>
-                </div>
-              </li>
-              <li class="recommended-outline__item">
-                <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
-                  <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
-                </div>
-                <div class="recommended-outline__desc fw-400-17-27">
-                  <p>При борьбе с головной болью</p>
-                </div>
-              </li>
-              <li class="recommended-outline__item">
-                <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
-                  <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
-                </div>
-                <div class="recommended-outline__desc fw-400-17-27">
-                  <p>Будущим мамам</p>
-                </div>
-              </li>
-            </ul>
-            <!-- Записаться к врачу -->
-            <div class="appointment">
-                <div class="container-outer">
-                  <div class="appointment__outer">
-                    <div class="appointment__inner">
-                      <div class="appointment-title appointment__appointment-title fw-400-24-30">
-                        <p>Запишитесь к врачу</p>
-                      </div>
-                      <form action="" class="appointment-contacts appointment__appointment-contacts">
-                        <div class="appointment-contacts__label fw-400-15-23">
-                          <p></p> Оставьте контактные данные, выберите услугу и салон</p>
-                        </div>
-                        <div class="appointment-contacts__row">
-                          <input type="text" name="appointment-name" id="appointment-name" class="appointment__input" placeholder="Имя" />
-                          <div class="choose-service-input appointment__choose-service-input">
-                            <div class="choose-service-input__select-box">
-                              <p class="choose-service-input__label">Выберите услугу</p>
-                              <div class="choose-service-input__chevron-down-wrapper center">
-                                <img src="./assets/images/chevron-down.svg" alt="./assets/images/chevron-down.svg" />
-                              </div>
-                            </div>
-                            <div class="choose-service-input__dropdown">
-                              <div class="choose-service-input__item">
-                                <input type="radio" name="appointment-massage" id="appointment-massage" value="Массаж" />
-                                <label for="appointment-massage">Массаж</label>
-                              </div>
-                              <div class="choose-service-input__item">
-                                <input type="radio" name="appointment-spa" id="appointment-spa" value="СПА" />
-                                <label for="appointment-massage">СПА</label>
-                              </div>
-                              <div class="choose-service-input__item">
-                                <input type="radio" name="appointment-therapy" id="appointment-therapy" value="Мануальная терапия" />
-                                <label for="appointment-therapy">Мануальная терапия</label>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="appointment-contacts__row">
-                          <input type="tel" name="appointment-tel" id="appointment-tel" class="appointment__input" placeholder="Ваш номер телефона" />
-                          <div class="choose-service-input appointment__choose-service-input">
-                            <div class="choose-service-input__select-box" data-city-select>
-                              <p class="city-label">Ваш город</p>
-                              <div class="city-option-chevron center">
-                                <img src="./assets/images/chevron-down.svg" alt="./assets/images/chevron-down.svg" />
-                              </div>
-                            </div>
-                            <div class="choose-service-input__dropdown" data-city-dropdown>
-                              <div class="city-option">
-                                <input type="radio" name="appointment-city" id="appointment-almaty" value="Алматы" />
-                                <label for="appointment-almaty">Алматы</label>
-                              </div>
-                              <div class="city-option">
-                                <input type="radio" name="appointment-city" id="appointment-pavlodar" value="Павлодар" />
-                                <label for="appointment-pavlodar">Павлодар</label>
-                              </div>
-                              <div class="city-option">
-                                <input type="radio" name="appointment-city" id="appointment-atyrau" value="Атырау" />
-                                <label for="appointment-atyrau">Атырау</label>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="appointment-contacts__btn-wrapper fw-400-17-20">
-                          <button class="btn-primary">Выбрать дату и время</button>
-                        </div>
-                        <div class="appointment-contacts__tel-span-wrapper fw-400-13-20">
-                          <div class="appointment-contacts__sign-up-label">
-                            <p>Также запись по телефону:</p>
-                          </div>
-                          <div class="appointment-contacts__sign-up-row">
-                            <div class="appointment-contacts__tel-span">
-                              <p>8 777 777-77-77</p>
-                            </div>
-                            <a href="" class="appointment-contacts__tel-label">Запись к врачу в 1 клик</a>
-                          </div>
-                        </div>
-
-
-                      </form>
-
-
+                <div class="contact-info__right">
+                  <div class="header-tel-wrapper">
+                    <div class="header-tel black fw-400-16-19">
+                      <p>+7(777) 777 77 77</p>
+                    </div>
+                    <div class="header-tel-chevron-icon center">
+                      <img src="./assets/images/chevron-down.svg" alt="./assets/images/chevron-down.svg" />
                     </div>
                   </div>
+                  <div class="order-callback purple fw-700-14-17">
+                    <a href="">Заказать обратный звонок</a>
+                  </div>
                 </div>
-                <div class="appointment__img">
-                  <img class="dr-img" src="./assets/images/appointment-img.svg" alt="./assets/images/appointment-img.svg" />
+              </div>
+              <div class="header-media-icons-wrapper">
+                <div class="header-whatsapp center">
+                  <a href=""><img class="whatsapp" src="./assets/images/whatsapp.svg" alt="./assets/images/whatsapp.svg" /></a>
                 </div>
+                <div class="header-insta center">
+                  <a href=""><img class="insta" src="./assets/images/insta.svg" alt="./assets/images/insta.svg" /></a>
+                </div>
+              </div>
             </div>
+          </div>
+      </div>
+      <div class="mobile-sidebar header__mobile-sidebar fw-300-16-19">
+        <div class="mobile-sidebar__link">
+          <a href="">О нас</a>
+          <div class="mobile-sidebar__chevron">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="mobile-sidebar__link">
+          <a href="">Все услуги</a>
+          <div class="mobile-sidebar__chevron">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="mobile-sidebar__link">
+          <a href="">Прайс</a>
+          <div class="mobile-sidebar__chevron">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="mobile-sidebar__link">
+          <a href="">Наша команда</a>
+          <div class="mobile-sidebar__chevron">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="mobile-sidebar__link">
+          <a href="">Статьи</a>
+          <div class="mobile-sidebar__chevron">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="mobile-sidebar__link">
+          <a href="">Видео</a>
+          <div class="mobile-sidebar__chevron">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="mobile-sidebar__link">
+          <a href="">Отзывы</a>
+          <div class="mobile-sidebar__chevron">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="mobile-sidebar__link">
+          <a href="">Новости</a>
+          <div class="mobile-sidebar__chevron">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="mobile-sidebar__link">
+          <a href="">Контакты</a>
+          <div class="mobile-sidebar__chevron">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+        </div>
 
 
+      </div>
+  
+    </header>
+    <main>
+      <div class="services-hero">
+        <div class="services-hero__services-main-img services-main-img">
+          <img width="100%" class="services-img services-main-img__services-img" src="./assets/images/services-hero-img.svg" alt="./assets/images/services-hero-img.svg" />
+          <img width="100%" class="hero-img-mobile" src="./assets/images/painful-knee.png" alt="./assets/images/painful-knee.png" />
+          <div class="services-hero__services-overlay services-overlay"></div>
+        </div>
+        <div class="services-hero__content">
+          <div class="container-outer">
+            <div class="services-content__inner">
+              <div class="services-title services-hero__title fw-600-24-34">
+                <p>Хруст в коленях – норма или повод обратиться к врачу?</p>
+              </div>
+              <div class="services-hero__btn-wrapper">
+                <button class="btn-primary fw-700-16-20">Заказать звонок</button>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      <div class="our-services">
+        <div class="container-outer">
+          <div class="our-services__outer">
+            <div class="our-services__inner">
+              <div class="our-services__title-label fw-900-30-37">
+                <p>Наши услуги</p>
+              </div>
+              <!-- Сетка -->
+              <ul class="services-grid our-services__services-grid">
+                <li class="services-item services-grid__services-item">
+                  <div class="services-item__inner">
+                    <div class="services-icon services-item__services-icon">
+                      <ion-icon name="diamond-outline"></ion-icon>
+                    </div>
+                    <div class="services-item-title services-item__services-item-title fw-700-17-25">
+                      <p>Мануальная терапия</p>
+                    </div>
+                    <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
+                      <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
+                    </div>
+                    <div class="services-item__btn-wrapper fw-400-15-23">
+                      <button class="btn-secondary">Подробнее</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="services-item services-grid__services-item">
+                  <div class="services-item__inner">
+                    <div class="services-icon services-item__services-icon">
+                      <ion-icon name="diamond-outline"></ion-icon>
+                    </div>
+                    <div class="services-item-title services-item__services-item-title fw-700-17-25">
+                      <p>Мануальная терапия</p>
+                    </div>
+                    <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
+                      <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
+                    </div>
+                    <div class="services-item__btn-wrapper fw-400-15-23">
+                      <button class="btn-secondary">Подробнее</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="services-item services-grid__services-item">
+                  <div class="services-item__inner">
+                    <div class="services-icon services-item__services-icon">
+                      <ion-icon name="diamond-outline"></ion-icon>
+                    </div>
+                    <div class="services-item-title services-item__services-item-title fw-700-17-25">
+                      <p>Мануальная терапия</p>
+                    </div>
+                    <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
+                      <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
+                    </div>
+                    <div class="services-item__btn-wrapper fw-400-15-23">
+                      <button class="btn-secondary">Подробнее</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="services-item services-grid__services-item">
+                  <div class="services-item__inner">
+                    <div class="services-icon services-item__services-icon">
+                      <ion-icon name="diamond-outline"></ion-icon>
+                    </div>
+                    <div class="services-item-title services-item__services-item-title fw-700-17-25">
+                      <p>Мануальная терапия</p>
+                    </div>
+                    <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
+                      <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
+                    </div>
+                    <div class="services-item__btn-wrapper fw-400-15-23">
+                      <button class="btn-secondary">Подробнее</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="services-item services-grid__services-item">
+                  <div class="services-item__inner">
+                    <div class="services-icon services-item__services-icon">
+                      <ion-icon name="diamond-outline"></ion-icon>
+                    </div>
+                    <div class="services-item-title services-item__services-item-title fw-700-17-25">
+                      <p>Мануальная терапия</p>
+                    </div>
+                    <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
+                      <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
+                    </div>
+                    <div class="services-item__btn-wrapper fw-400-15-23">
+                      <button class="btn-secondary">Подробнее</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="services-item services-grid__services-item">
+                  <div class="services-item__inner">
+                    <div class="services-icon services-item__services-icon">
+                      <ion-icon name="diamond-outline"></ion-icon>
+                    </div>
+                    <div class="services-item-title services-item__services-item-title fw-700-17-25">
+                      <p>Мануальная терапия</p>
+                    </div>
+                    <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
+                      <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
+                    </div>
+                    <div class="services-item__btn-wrapper fw-400-15-23">
+                      <button class="btn-secondary">Подробнее</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="services-item services-grid__services-item">
+                  <div class="services-item__inner">
+                    <div class="services-icon services-item__services-icon">
+                      <ion-icon name="diamond-outline"></ion-icon>
+                    </div>
+                    <div class="services-item-title services-item__services-item-title fw-700-17-25">
+                      <p>Мануальная терапия</p>
+                    </div>
+                    <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
+                      <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
+                    </div>
+                    <div class="services-item__btn-wrapper fw-400-15-23">
+                      <button class="btn-secondary">Подробнее</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="services-item services-grid__services-item">
+                  <div class="services-item__inner">
+                    <div class="services-icon services-item__services-icon">
+                      <ion-icon name="diamond-outline"></ion-icon>
+                    </div>
+                    <div class="services-item-title services-item__services-item-title fw-700-17-25">
+                      <p>Мануальная терапия</p>
+                    </div>
+                    <div class="services-item-desc services-item__services-item-desc fw-400-14-21">
+                      <p>Lorem ipsum dolor sit amet consectetur. Et mauris donec ultrices pharetra.</p>
+                    </div>
+                    <div class="services-item__btn-wrapper fw-400-15-23">
+                      <button class="btn-secondary">Подробнее</button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <!-- Рекомендовано записаться на прием -->
+      <div class="recommended">
+        <div class="container-outer">
+          <div class="recommended__outer">
+            <div class="recommended__inner">
+              <div class="recommended__title fw-400-28-39">
+                <p>Рекомендовано записаться на прием:</p>
+              </div>
+              <ul class="recommended-outline recommended__recommended-outline">
+                <li class="recommended-outline__item">
+                  <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
+                    <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
+                  </div>
+                  <div class="recommended-outline__desc fw-400-17-27">
+                    <p>Для сохранения здоровья суставов</p>
+                  </div>
+                </li>
+                <li class="recommended-outline__item">
+                  <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
+                    <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
+                  </div>
+                  <div class="recommended-outline__desc fw-400-17-27">
+                    <p>При лечении мышц и связок</p>
+                  </div>
+                </li>
+                <li class="recommended-outline__item">
+                  <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
+                    <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
+                  </div>
+                  <div class="recommended-outline__desc fw-400-17-27">
+                    <p>Для профилактики заболеваний вен</p>
+                  </div>
+                </li>
+                <li class="recommended-outline__item">
+                  <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
+                    <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
+                  </div>
+                  <div class="recommended-outline__desc fw-400-17-27">
+                    <p>Перенесшим операцию</p>
+                  </div>
+                </li>
+                <li class="recommended-outline__item">
+                  <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
+                    <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
+                  </div>
+                  <div class="recommended-outline__desc fw-400-17-27">
+                    <p>Нуждающимся в реабилитации</p>
+                  </div>
+                </li>
+                <li class="recommended-outline__item">
+                  <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
+                    <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
+                  </div>
+                  <div class="recommended-outline__desc fw-400-17-27">
+                    <p>Любителям спорта</p>
+                  </div>
+                </li>
+                <li class="recommended-outline__item">
+                  <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
+                    <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
+                  </div>
+                  <div class="recommended-outline__desc fw-400-17-27">
+                    <p>Для коррекции походки</p>
+                  </div>
+                </li>
+                <li class="recommended-outline__item">
+                  <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
+                    <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
+                  </div>
+                  <div class="recommended-outline__desc fw-400-17-27">
+                    <p>При борьбе с головной болью</p>
+                  </div>
+                </li>
+                <li class="recommended-outline__item">
+                  <div class="aqua-tick-icon recommended-outline__aqua-tick-icon">
+                    <img class="aqua-tick-img" width="100%" src="./assets/images/aqua-tick.svg" alt="./assets/images/aqua-tick.svg" />
+                  </div>
+                  <div class="recommended-outline__desc fw-400-17-27">
+                    <p>Будущим мамам</p>
+                  </div>
+                </li>
+              </ul>
+              <!-- Записаться к врачу -->
+              <div class="appointment">
+                  <div class="container-outer">
+                    <div class="appointment__outer">
+                      <div class="appointment__inner">
+                        <div class="appointment-title appointment__appointment-title fw-400-24-30">
+                          <p>Запишитесь к врачу</p>
+                        </div>
+                        <form action="" class="appointment-contacts appointment__appointment-contacts">
+                          <div class="appointment-contacts__label fw-400-15-23">
+                            <p></p> Оставьте контактные данные, выберите услугу и салон</p>
+                          </div>
+                          <div class="appointment-contacts__row">
+                            <input type="text" name="appointment-name" id="appointment-name" class="appointment__input" placeholder="Имя" />
+                            <div class="choose-service-input appointment__choose-service-input">
+                              <div class="choose-service-input__select-box">
+                                <p class="choose-service-input__label">Выберите услугу</p>
+                                <div class="choose-service-input__chevron-down-wrapper center">
+                                  <img src="./assets/images/chevron-down.svg" alt="./assets/images/chevron-down.svg" />
+                                </div>
+                              </div>
+                              <div class="choose-service-input__dropdown">
+                                <div class="choose-service-input__item">
+                                  <input type="radio" name="appointment-massage" id="appointment-massage" value="Массаж" />
+                                  <label for="appointment-massage">Массаж</label>
+                                </div>
+                                <div class="choose-service-input__item">
+                                  <input type="radio" name="appointment-spa" id="appointment-spa" value="СПА" />
+                                  <label for="appointment-massage">СПА</label>
+                                </div>
+                                <div class="choose-service-input__item">
+                                  <input type="radio" name="appointment-therapy" id="appointment-therapy" value="Мануальная терапия" />
+                                  <label for="appointment-therapy">Мануальная терапия</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="appointment-contacts__row">
+                            <input type="tel" name="appointment-tel" id="appointment-tel" class="appointment__input" placeholder="Ваш номер телефона" />
+                            <div class="choose-service-input appointment__choose-service-input">
+                              <div class="choose-service-input__select-box" data-city-select>
+                                <p class="city-label">Ваш город</p>
+                                <div class="city-option-chevron center">
+                                  <img src="./assets/images/chevron-down.svg" alt="./assets/images/chevron-down.svg" />
+                                </div>
+                              </div>
+                              <div class="choose-service-input__dropdown" data-city-dropdown>
+                                <div class="city-option">
+                                  <input type="radio" name="appointment-city" id="appointment-almaty" value="Алматы" />
+                                  <label for="appointment-almaty">Алматы</label>
+                                </div>
+                                <div class="city-option">
+                                  <input type="radio" name="appointment-city" id="appointment-pavlodar" value="Павлодар" />
+                                  <label for="appointment-pavlodar">Павлодар</label>
+                                </div>
+                                <div class="city-option">
+                                  <input type="radio" name="appointment-city" id="appointment-atyrau" value="Атырау" />
+                                  <label for="appointment-atyrau">Атырау</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="appointment-contacts__btn-wrapper fw-400-17-20">
+                            <button class="btn-primary">Выбрать дату и время</button>
+                          </div>
+                          <div class="appointment-contacts__tel-span-wrapper fw-400-13-20">
+                            <div class="appointment-contacts__sign-up-label">
+                              <p>Также запись по телефону:</p>
+                            </div>
+                            <div class="appointment-contacts__sign-up-row">
+                              <div class="appointment-contacts__tel-span">
+                                <p>8 777 777-77-77</p>
+                              </div>
+                              <a href="" class="appointment-contacts__tel-label">Запись к врачу в 1 клик</a>
+                            </div>
+                          </div>
+  
+  
+                        </form>
+  
+  
+                      </div>
+                    </div>
+                  </div>
+                  <div class="appointment__img">
+                    <img class="dr-img" src="./assets/images/appointment-img.svg" alt="./assets/images/appointment-img.svg" />
+                  </div>
+              </div>
+  
+  
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+  
+  
+  
+  
+    </main>
+  </div>
 
-
-
-
-
-
-  </main>
 
 
 
